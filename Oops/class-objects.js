@@ -11,9 +11,9 @@ const login={
 
 function user(username,loginCount,isloggedin){
     this.username=username
-    this,loginCount=loginCount
+    this.loginCount=loginCount
     this.isloggedin=isloggedin
-    // return this
+    //  return {name:"Soumitra"} The new keyword creates a new object, binds this to that object, executes the constructor, and automatically returns the object unless the constructor explicitly returns another object.
 
 }
 const userOne= new user("sufal",1,true)
